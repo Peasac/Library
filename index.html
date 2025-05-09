@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+        <div class="heading">
+            <h1>The Library.</h1>
+            <br><p> A place to record your readings</p>
+        </div>
+        <div class="Addbutton">
+            <button class="Addbook"><img src="/assets/square-plus-regular.svg" width="28px" height="36px" alt="add">Add Book</button>
+        </div>
+        </div class="form-container">    
+            <dialog>
+            <form>
+                <div class="Name">
+                    <label for="name">Name of the book:</label>
+                    <input id="name" name="bookname" type="text" placeholder="Ex:Harry Potter" required>
+                </div>
+                <div class="Author">
+                    <label for="author">Name of the Author:</label>
+                    <input id="author" name="author" type="text" placeholder="Ex:JK Rowling" required>
+                </div>
+                <div class="Name">
+                    <label for="pages">Number of Pages:</label>
+                    <input id="pages" name="pages" type="number" placeholder="Ex:90" required>
+                </div>
+                <div class="Status">
+                    <div class="stat">
+                    <input id="yes" name="status" class="status" value="Read" type="radio" required>
+                    <label for="yes">Yes</label>
+                    </div>
+                     <div class="stat">
+                     <input id="no" name="status" class="status" value="Not Read" type="radio" required>
+                     <label for="no">No</label>
+                     </div>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="submit-button">Create</div>
+                    <button type="submit"class="Cancel">Cancel</button>
+                </div>
+            </form>
+            </dialog>
+        </div>
+
+        <div class="storage">
+        </div>
+    </body>
+</html>
